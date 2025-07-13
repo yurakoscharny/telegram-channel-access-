@@ -4,6 +4,7 @@ from config import BOT_TOKEN, logger
 import signal
 import sys
 
+class TelegramBot:
     def __init__(self):
         self.updater = None
         self.dispatcher = None
